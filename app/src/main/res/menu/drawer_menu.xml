@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view"
+
+    >
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/timetable"
+            android:icon="@drawable/icons8"
+            android:title="Сабақ кестеси"
+            />
+
+        <item
+            android:id="@+id/transcription"
+            android:icon="@drawable/icons10"
+            android:title="Транскрипт"
+            />
+        <item
+            android:id="@+id/system_calendar"
+            android:icon="@drawable/icons9"
+            android:title="Жүйе кестесі" />
+<!--        <item-->
+<!--            android:id="@+id/gate_entry_record"-->
+<!--            android:icon="@drawable/ic_mail_outline_black_24dp"-->
+<!--            android:title="Кіру жазбалары" />-->
+        <item
+            android:id="@+id/messages"
+            android:icon="@drawable/iconsmessage"
+            android:title="Хабарламалар" />
+<!--        <item-->
+<!--            android:id="@+id/accounting"-->
+<!--            android:icon="@drawable/ic_mail_outline_black_24dp"-->
+<!--            android:title="Бухгалтерлік есеп" />-->
+    </group>
+    <group android:id="@+id/menu_group2" android:checkableBehavior="none" >
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/settings"
+                android:title="Баптаулар" />
+            <item
+                android:id="@+id/contacts"
+                android:icon="@drawable/phonecall"
+                android:title="Байланыс" />
+    </group>
+</menu>

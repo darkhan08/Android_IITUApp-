@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IITU app</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="name_of_university">
+        <br>
+            Халықаралық ақпараттық технологиялар\n
+        </br>
+        <br>
+            университеті
+        </br>
+        </string>
+
+</resources>

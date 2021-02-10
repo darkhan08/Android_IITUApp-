@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="209.95dp"
+        android:layout_height="109.85dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/iitu_logo"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="0"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center_horizontal"
+        android:layout_weight="0"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name_of_university"
+                    android:id="@+id/title_of_un"
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Студенттің жеке нөмірі"
+                        android:textSize="14sp"
+                        android:id="@+id/id_of_students"
+                        android:inputType="textEmailAddress"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    app:passwordToggleEnabled="true"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Құпия сөз"
+                        android:textSize="14sp"
+                        android:id="@+id/password"
+                        android:inputType="textPassword"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:text="Кіру"
+                    android:background="@drawable/mybutton"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#ffffff"
+                    android:id="@+id/login"
+                    android:textSize="14sp"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Құпиясөзді ұмыттыңыз ба?"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/dont_remember_pass_tv"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="10dp"
+            android:visibility="gone"
+
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="28dp"
+                android:layout_marginBottom="28dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name_of_university"
+                    android:id="@+id/title_of_university_forget_pass"
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Студенттің жеке нөмірі"
+                        android:textSize="14sp"
+                        android:id="@+id/id_of_students_forget_pass"
+                        android:inputType="number"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:text="Қайта орнату"
+                    android:background="@drawable/mybutton"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#ffffff"
+                    android:id="@+id/change_password_btn"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    android:textSize="14sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Артқа"
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:id="@+id/back_tv"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        />
+</LinearLayout>

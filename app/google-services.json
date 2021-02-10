@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "717523287398",
+    "project_id": "iitu-bdcc3",
+    "storage_bucket": "iitu-bdcc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717523287398:android:ddffd3ec2efc87040e1ca7",
+        "android_client_info": {
+          "package_name": "com.example.iituapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717523287398-idepnusg6qlq69de1vr1lqko8gsse8rp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWS0SrTzxNGTVhoVC08e8NjGxkyMlnPfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717523287398-idepnusg6qlq69de1vr1lqko8gsse8rp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

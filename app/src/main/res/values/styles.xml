@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:listDivider">@color/red_line</item>
+
+
+    </style>
+    <style name="customTextStyle" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:textSize">@dimen/transcription_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:listDivider">@android:color/white</item>
+    </style>
+
+    <style name="customTranscriptionListTextStyle" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:textSize">@dimen/transcription_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:listDivider">@android:color/white</item>
+    </style>
+    <style name="Custom">
+        <item name="android:listDivider">@android:color/white</item>
+    </style>
+</resources>

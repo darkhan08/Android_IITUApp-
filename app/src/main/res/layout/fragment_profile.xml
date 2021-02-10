@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorGrey"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:id="@+id/my_view"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/circle_image"
+            android:src="@drawable/asd"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Satynbayev Darkhan"
+            android:id="@+id/name_students"
+            android:layout_below="@+id/circle_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16010428"
+            android:id="@+id/id_students"
+            android:layout_below="@+id/name_students"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+
+        >
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/list_view"
+            android:dividerHeight="20.0sp"
+            android:divider="@null"
+            />
+    </LinearLayout>
+</LinearLayout>
